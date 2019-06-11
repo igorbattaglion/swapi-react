@@ -1,0 +1,42 @@
+body {
+    /* background-color: #252120!important; */
+}
+
+#search {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: black!important;
+}
+
+#search .paper{
+    position: fixed;
+    width: 40%;
+    display: flex;
+    padding: 0 20px;
+    color: #fff;
+    flex-direction: column;
+}
+
+#search .cards{
+    margin-left: 40%;
+    width: 60%;
+    padding: 20px;
+}
+
+#search .card{    
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    width: 275px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 16px;
+}
+
+#search .title{
+    margin-bottom: 12px;
+}
+
+#search .submit{
+    margin-top: 10px;
+}
